@@ -9,7 +9,7 @@ This document supposes and requires the latest version of `Ryu`_,
 For the easiest way to build the environment for this document, you can use
 the `Docker <https://www.docker.com/>`_ image for Ryu-Book.
 
-- Using `The Docker image for Ryu-Book <https://hub.docker.com/r/osrg/ryu-book/)>`_
+- Using `the Docker image for Ryu-Book <https://hub.docker.com/r/osrg/ryu-book/>`_
 
   .. rst-class:: console
 
@@ -23,7 +23,7 @@ the `Docker <https://www.docker.com/>`_ image for Ryu-Book.
 
 If you want to build the Ryu-Book environment manually, please refer to the
 following.
-If you have some trouble when installing `Open vSwitch`_ and `Mininet`_,
+And if you have some trouble when installing `Open vSwitch`_ and `Mininet`_,
 please find more information on each project homepage.
 
 - `Ryu`_
@@ -39,11 +39,11 @@ please find more information on each project homepage.
 
 - `Open vSwitch`_
 
-  See this `installation procedure <https://github.com/openvswitch/ovs/blob/master/INSTALL.md>`_
+  See this `INSTALL.md of Open vSwitch <https://github.com/openvswitch/ovs/blob/master/INSTALL.md>`_
 
 - `Mininet`_
 
-  See this `installation procedure <https://github.com/mininet/mininet/blob/master/INSTALL>`_
+  See this `INSTALL of Mininet <https://github.com/mininet/mininet/blob/master/INSTALL>`_
 
 
 .. _Ryu: https://github.com/osrg/ryu/

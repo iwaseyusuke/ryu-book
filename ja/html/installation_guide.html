@@ -55,9 +55,9 @@
   <div class="section" id="ch-inst-guide">
 <span id="id1"></span><h1>環境構築<a class="headerlink" href="#ch-inst-guide" title="このヘッドラインへのパーマリンク">¶</a></h1>
 <p>本書では、<a class="reference external" href="https://github.com/osrg/ryu/">Ryu</a>、<a class="reference external" href="http://openvswitch.org/">Open vSwitch</a>および<a class="reference external" href="http://mininet.org/">Mininet</a>の最新版がインストールされている環境を想定しています。</p>
-<p>本書のための環境をもっとも簡単に整えるには、<a class="reference external" href="https://www.docker.com/">Docker</a>を利用することをお勧めします。</p>
+<p>本書のための環境を整えるには、<a class="reference external" href="https://www.docker.com/">Docker</a>を利用する方法が最も簡単です。</p>
 <ul>
-<li><p class="first">Ryu-Book 用の<a class="reference external" href="https://hub.docker.com/r/osrg/ryu-book/)">Docker image</a>を使う方法</p>
+<li><p class="first"><a class="reference external" href="https://hub.docker.com/r/osrg/ryu-book/">Ryu-Book 用 Docker イメージ</a>を使う方法</p>
 <div class="console highlight-default"><div class="highlight"><pre><span></span>$ docker run -it --privileged -e DISPLAY=$DISPLAY \
              -v /tmp/.X11-unix:/tmp/.X11-unix \
              -v /lib/modules:/lib/modules \
@@ -66,7 +66,7 @@
 </div>
 </li>
 </ul>
-<p>もし手動で環境を整えたい場合は、下記を参照してください。また、<a class="reference external" href="http://openvswitch.org/">Open vSwitch</a>および<a class="reference external" href="http://mininet.org/">Mininet</a>のインストール時に問題が起きた場合は、それぞれのプロジェクトのHPを参照ください。</p>
+<p>もし手動で環境を整えたい場合は、下記を参照ください。また、<a class="reference external" href="http://openvswitch.org/">Open vSwitch</a>および<a class="reference external" href="http://mininet.org/">Mininet</a>のインストール時に問題が起きた場合は、それぞれのプロジェクトのHPを参照ください。</p>
 <ul>
 <li><p class="first"><a class="reference external" href="https://github.com/osrg/ryu/">Ryu</a></p>
 <div class="console highlight-default"><div class="highlight"><pre><span></span>$ sudo apt-get install git python-dev python-setuptools python-pip
@@ -77,10 +77,10 @@ $ sudo pip install .
 </div>
 </li>
 <li><p class="first"><a class="reference external" href="http://openvswitch.org/">Open vSwitch</a></p>
-<p>こちらの<a class="reference external" href="https://github.com/openvswitch/ovs/blob/master/INSTALL.md">インストール手順</a>参照ください。</p>
+<p>こちらの<a class="reference external" href="https://github.com/openvswitch/ovs/blob/master/INSTALL.md">Open vSwitch インストール手順</a>参照ください。</p>
 </li>
 <li><p class="first"><a class="reference external" href="http://mininet.org/">Mininet</a></p>
-<p>こちらの<a class="reference external" href="https://github.com/mininet/mininet/blob/master/INSTALL">インストール手順</a>参照ください。</p>
+<p>こちらの<a class="reference external" href="https://github.com/mininet/mininet/blob/master/INSTALL">Mininet インストール手順</a>参照ください。</p>
 </li>
 </ul>
 </div>
